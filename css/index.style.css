@@ -1,0 +1,142 @@
+/*
+    Created BY : fb.com/toru.fhp 
+    DAY        : Sabtu ,12 Jumadil AL-Thani 1435 H || 12 April 2014 M 
+    TIME       :  01:45 PM
+    STYLE CSS FOR ALL INDEX PAGE
+*/ 
+#wrapper_over{
+	/*border:2px solid green;*/
+}
+#wrapper_toolbar{
+	background-color:#00a753;position:relative;
+}
+.wrapper_cari{
+	width:800px;margin:auto;
+}
+.wrapper_cari .d_fcari {
+	border:5px solid #00a753;/*border-radius:0 5px 0px 0px;*/float:left;background-color:#00a753;
+	border-top:15px solid #00a753;border-left:15px solid #00a753;
+	box-shadow: 0 -0.1em 0.8em;height: 56px;
+}
+.wrapper_cari .d_fcari input{float:left;}
+.wrapper_cari .d_fcari #p_cari{
+	font:25px arial;margin-top:0px;
+	padding:8px 0 8px 10px;width:680px;border:none;color:rgba(0,0,0,.5);
+}
+.wrapper_cari .d_fcari #p_cari:focus{
+	color:black;
+}
+#b_cari{ /* Button Cari*/
+	width:80px;
+	padding:16px;border:none;
+	background:url(../img/zoom.png) no-repeat;
+	background-color:#00a753;background-position:25px;
+	margin:0;
+}
+#auto_cari{width:689px;}
+/*Style For Loader ----*/
+.loader{padding:20px;background:url(../img/loader.gif) no-repeat;
+	background-position:250px 50px;
+	height: 40px;
+}
+.loader_01{background:url(../img/loader.gif) no-repeat;
+	background-position:50% 45%;background-color:rgba(0,255,0,.1);
+	width:100%;height:500px;
+}
+#wrapper_list{
+	box-shadow: 0 0.1em 0.5em;
+	border:3px solid #00a753;margin-top:0px;
+	background-color:white;border-radius:0 0 5px 5px;
+}
+._001{padding: 10px;height:21px;border:1px solid rgba(0,0,200,.3);}
+.list_cari{
+	border-bottom:1px solid rgba(0,0,200,.3);
+	padding:15px 15px 15px 60px;font:14px tahoma;color:rgba(0,0,0,.9);
+	background-color:white!important;
+}
+.logo_style{
+	background-size:48px!important;background-position:6px 1px!important;
+}
+.list_cari:hover{
+	cursor:pointer;background-color:rgba(0,200,0,.1)!important;
+}
+/*for None Logo*/
+.non_logo{background:url(../img/Warning.png) no-repeat;background-size:32px;background-position:10px 8px;}
+.non_logo span{
+	font-weight:bold;text-decoration:underline;
+}
+.no_result{
+	background:url(../img/Warning.png) no-repeat; 
+}
+/*Style For out_data*/
+#out_data{
+	border-top:1px solid rgba(0,255,0,.2);
+	border-bottom:1px solid rgba(0,255,0,.2);min-height:500px;}
+/*Style wrapper_detail*/
+#wrapper_detail{
+	min-height:200px;width:250px;margin:auto;margin-top:80px;
+	border-radius:0px 0 4px 4px;background-color:white;
+	
+}
+#wrapper_detail .header{
+	border-bottom:1px solid rgba(0,255,5,.5);font:2em arial;letter-spacing:1px;
+	padding:15px 5px 15px 90px;
+	background-size:68px!important;
+	background-position:48% 5px!important;height: 50px;
+	color:rgba(0,0,0,.5);
+}
+#wrapper_detail .header:hover{color:black;text-decoration:underline;}
+#wrapper_detail .info{
+	/*border:1px solid #00a753;*/
+	background-color:white;
+}
+.info ul{text-align:center;padding:5px;}
+.info li{
+	width:50px;
+	border-radius:100px;height:50px;display:inline-block;
+	cursor:pointer;background-position:9px!important;
+	box-shadow: 0 0.1em .2em -.1em #00a753;
+}
+.info li:hover{
+	box-shadow: 0 0.1em .9em -.1em #00a753;
+}
+.info li#alamat{
+	background:url(../img/alamat.png) no-repeat;
+}
+.info li#telepon{
+	background:url(../img/telpon.png) no-repeat;
+}
+.info li#web{
+	background:url(../img/link.png) no-repeat;
+}
+.info li#map{
+	background:url(../img/map.png) no-repeat;
+}
+/*
+.info table tr td{border:1px solid blue;}
+.info table tr td.td_t{
+	width:18px!important;
+	padding:10px 0px 10px 0px;height:15px;
+	background-position:3px!important;
+}
+.info table tr td.td_i{
+	font:16px tahoma;width:10px;
+}
+.info table tr td dd{font:16px tahoma;width:249px;border:1px solid green;
+	padding-left: 35px;
+}
+.info table tr td.judul{
+	font:20px tahoma;text-align:center;padding:10px;
+}
+.info table tr td#alamat{
+	background:url(../img/alamat.png) no-repeat;
+}
+.info table tr td#telp{
+	background:url(../img/telpon.png) no-repeat;
+}
+.info table tr td#web{
+	background:url(../img/link.png) no-repeat;
+}
+.info table tr td#map{
+	background:url(../img/map.png) no-repeat;
+}*/
